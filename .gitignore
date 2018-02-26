@@ -1,0 +1,19 @@
+### yarn ###
+/node_modules
+
+### System ###
+*.DS_Store
+*Thumbs.db
+
+### Build ###
+web/assets/css
+web/assets/js
+web/assets/images
+/yarn.lock
+/styleguide
+
+### Dev ###
+config.codekit
+*.sublime-project
+*.sublime-workspace
+.idea/

@@ -1,0 +1,34 @@
+body {
+  background: #fff;
+}
+
+
+// Post Title (
+//
+// Large, **in charge**, and centered.
+//
+// Markup:
+// <h1 class="post-title">A Post Title</h1>
+//
+// Styleguide Components.article.post-title
+
+.post-title {
+  font-size: 3em;
+  text-align: center;
+  font-family: fantasy;
+}
+
+// Post Subtitle (
+//
+// Large, **in charge**, and centered.
+//
+// Markup:
+// <h1 class="post-subtitle">A Post Subtitle</h1>
+//
+// Styleguide Components.article.post-title
+
+.post-subtitle {
+  font-size: 2em;
+  text-align: center;
+  font-family: fantasy;
+}
