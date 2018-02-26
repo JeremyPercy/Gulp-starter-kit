@@ -14,7 +14,7 @@ Clone the repository to your computer, in any desired directory.
 ```
 git clone https://github.com/JeremyPercy/yarn-base-gulp-bootstrap-styleguide-template
 ```
-After cloning this repository to your computer you need to have Yarn. I you have no Yarn package on your computer you need to install Yarn first.
+After cloning this repository to your computer you need to have Yarn. If you don't have Yarn package on your computer you need to install Yarn first.
 ```
 https://yarnpkg.com/en/docs/install
 ```
