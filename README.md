@@ -12,7 +12,7 @@ A step by step series of examples that tell you have to get a development env ru
 
 Clone the repository to your computer, in any desired directory.
 ```
-git clone http://
+git clone https://github.com/JeremyPercy/yarn-base-gulp-bootstrap-styleguide-template
 ```
 After cloning this repository to your computer you need to have Yarn. I you have no Yarn package on your computer you need to install Yarn first.
 ```
