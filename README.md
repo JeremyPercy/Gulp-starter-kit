@@ -18,13 +18,20 @@ After cloning this repository to your computer you need to have Yarn. If you don
 ```
 https://yarnpkg.com/en/docs/install
 ```
+Make sure you have gulp client installed globally. Doing so by the following command line.
+```
+npm install --global gulp-cli
+```
+If you already have an old version of gulp -g installed please follow the next few commands to uninstall the old gulp first.
+```
+npm rm --global gulp
+rm /usr/share/man/man1/gulp.1
+```
 If you have Yarn or have it installed just type the following command in your command-line:
 ```
 yarn install
 ```
-
 Yarn will have all the dependencies installed. Now you can make use of gulp by entering the follow line in your command-line and your up and running.
-
 ```
 yarn run gulp
 ```
