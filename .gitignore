@@ -4,6 +4,7 @@
 ### System ###
 *.DS_Store
 *Thumbs.db
+/yarn-error.log
 
 ### Build ###
 web/assets/css
