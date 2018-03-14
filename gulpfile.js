@@ -61,7 +61,6 @@ gulp.task('sass', function () {
 
 gulp.task('bundle-scripts', function () {
     return gulp.src([
-        'src/js/libs/fontawesome-all.min.js',
         'node_modules/jquery/jquery.js',
         'node_modules/bootstrap/dist/js/bootstrap.bundle.js'
     ])
@@ -83,7 +82,8 @@ gulp.task('bundle-scripts', function () {
 // Custom js script file.
 
 gulp.task('custom-scripts', function () {
-    return gulp.src(['src/js/**/*.js'])
+    return gulp.src([
+        'src/js/**/*.js'])
         .pipe(plumber({errorHandle: onError}))
         .pipe(sourcemaps.init())
         .pipe(babel({

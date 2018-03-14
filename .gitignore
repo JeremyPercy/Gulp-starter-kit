@@ -7,9 +7,9 @@
 /yarn-error.log
 
 ### Build ###
-web/assets/css
-web/assets/js
-web/assets/images
+dist/assets/css
+dist/assets/js
+dist/assets/images
 /yarn.lock
 /styleguide
 
