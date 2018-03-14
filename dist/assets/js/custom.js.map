@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"custom.js","sourcesContent":[]}
+{"version":3,"sources":["custom.js"],"names":[],"mappings":"AAEA,QAAA,AAAQ,IAAR,AAAY","file":"custom.js","sourcesContent":["// custom JS here\n\nconsole.log('hello');\n\n"]}
