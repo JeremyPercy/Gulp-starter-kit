@@ -11,7 +11,7 @@ dist/assets/css
 dist/assets/js
 dist/assets/images
 /yarn.lock
-/styleguide
+dist/styleguide
 
 ### Dev ###
 config.codekit
