@@ -110,7 +110,7 @@ gulp.task('custom-scripts', function () {
 gulp.task('styleguide', function () {
     return kss({
         source: 'src/scss/',
-        destination: 'styleguide/',
+        destination: 'dist/styleguide/',
         css: '../dist/assets/css/style.css',
         js: '../dist/assets/js/custom.js',
         builder: "node_modules/michelangelo/kss_styleguide/custom-template/",
