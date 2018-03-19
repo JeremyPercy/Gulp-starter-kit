@@ -23,12 +23,12 @@ var onError = function (err) {
     console.log(err.toString());
 
     this.emit('end');
-}
+};
 
 // task Imagemin, Compile images
 
 gulp.task('imagemin', function () {
-    return gulp.src('src/images/*')
+    return gulp.src('src/images/**/*')
         .pipe(imagemin({
             progressive: true,
             svgPlugins: [{removeViewBox: false}],
@@ -61,13 +61,10 @@ gulp.task('sass', function () {
 
 gulp.task('bundle-scripts', function () {
     return gulp.src([
-        'node_modules/jquery/jquery.js',
+        'node_modules/jquery/dist/jquery.js',
         'node_modules/bootstrap/dist/js/bootstrap.bundle.js'
     ])
         .pipe(sourcemaps.init())
-        .pipe(babel({
-            presets: ['@babel/env']
-        }))
         .pipe(concat('all.js'))
         .pipe(minify({
             mangle: {
@@ -111,8 +108,8 @@ gulp.task('styleguide', function () {
     return kss({
         source: 'src/scss/',
         destination: 'dist/styleguide/',
-        css: '../dist/assets/css/style.css',
-        js: '../dist/assets/js/custom.js',
+        css: '../assets/css/style.css',
+        js: '../assets/js/custom.js',
         builder: "node_modules/michelangelo/kss_styleguide/custom-template/",
         title: 'Your website title'
     });
@@ -126,9 +123,9 @@ gulp.task('default', ['sass', 'bundle-scripts', 'custom-scripts', 'imagemin', 's
         server: 'dist'
     });
 
-    gulp.watch('src/scss/**/*.scss', ['sass', 'styleguide']);
-    gulp.watch('src/js/*.js', ['bundle-scripts']);
-    gulp.watch('src/js/*.js', ['custom-scripts']);
-    gulp.watch('src/images/*', ['imagemin']);
+    gulp.watch('src/scss/**/*.scss', ['sass']);
+    gulp.watch('dist/styleguide/**/*', ['styleguide']);
+    gulp.watch('src/js/**/*.js', ['custom-scripts']);
+    gulp.watch('src/images/**/*', ['imagemin']);
     gulp.watch('dist/**/*.html').on('change', browserSync.reload);
 });
