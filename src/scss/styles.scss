@@ -1,9 +1,26 @@
 //Custom variables and mixins
-@import "base/variables";
-@import "base/mixins";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
 
 // Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 //Custom scss
+
+// Base styles
 @import "base/global";
+@import "base/typography";
+
+// Component styles
+
+// Layout styles
+@import "layout/header";
+@import "layout/footer";
+
+// Module styles
+
+// Page styles
+@import "pages/home";
+
+// Vendors
