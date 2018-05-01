@@ -29,12 +29,10 @@ rm /usr/share/man/man1/gulp.1
 ```
 If you have Yarn or have it installed just type the following command in your command-line:
 ```
-yarn install
+yarn start
 ```
-Yarn will have all the dependencies installed. Now you can make use of gulp by entering the follow line in your command-line and your up and running.
-```
-yarn run gulp
-```
+Yarn will have all the dependencies installed and will run gulp. 
+
 
 ## How to
  You can make edit, create or remove Sass/scss and JS in the src directory. However you can direct edit the html files in the web directory. All scss and js files will be compiled in a minified version in the web/assets directory.
