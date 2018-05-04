@@ -16,25 +16,25 @@
     "browser-sync"
   ],
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "jquery": "^3.3.1",
-    "@fortawesome/fontawesome": "^1.1.5"
+    "@fortawesome/fontawesome": "^1.1.7",
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.42",
-    "@babel/preset-env": "^7.0.0-beta.42",
-    "browser-sync": "^2.23.3",
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "browser-sync": "^2.24.4",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
+    "gulp-autoprefixer": "^5.0.0",
     "gulp-babel": "^8.0.0-beta.2",
-    "gulp-babel-minify": "^0.2.0",
+    "gulp-babel-minify": "^0.4.1",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^4.1.0",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.0",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.3",
-    "kss": "^3.0.0-beta.18",
+    "kss": "^3.0.0-beta.19",
     "michelangelo": "^0.7.0"
   }
 }
