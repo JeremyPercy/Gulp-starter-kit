@@ -12,6 +12,7 @@ dist/assets/js
 dist/assets/images
 /yarn.lock
 dist/styleguide
+/gulp-config.json
 
 ### Dev ###
 config.codekit

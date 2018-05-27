@@ -1,0 +1,21 @@
+{
+  "templates": "app/views/**/*.html",
+  "styles": {
+    "src": "src/scss/**/*.scss",
+    "dist": "dist/assets/css",
+    "watch": "src/scss/**/*.scss"
+  },
+  "js": {
+    "src": "src/js/**/*.js",
+    "dist": "dist/assets/js",
+    "watch": "src/js/**/*.js"
+  },
+  "images": {
+    "src": "src/images/**/*",
+    "dist": "dist/assets/images"
+  },
+  "options": {
+    "localURL": "",
+    "dir": "dist/"
+  }
+}
