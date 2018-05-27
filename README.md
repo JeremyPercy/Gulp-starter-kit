@@ -12,13 +12,13 @@ A step by step series of examples that tell you have to get a development env ru
 
 Clone the repository to your computer, in any desired directory.
 ```
-git clone https://github.com/JeremyPercy/yarn-base-gulp-bootstrap-styleguide-template
+git clone https://github.com/JeremyPercy/Gulp-starter-kit
 ```
 After cloning this repository to your computer you need to have Yarn. If you don't have Yarn package on your computer you need to install Yarn first.
 ```
 https://yarnpkg.com/en/docs/install
 ```
-Make sure you have gulp client installed globally. Doing so by the following command line.
+Make sure you have gulp client installed globally. Doing so by the following command line. Note: If you don't have Gulp client or you dont want it installed on your computer then there is no need for. Script wil work also wihtout having gulp installed globally.
 ```
 npm install --global gulp-cli
 ```
@@ -27,6 +27,12 @@ If you already have an old version of gulp -g installed please follow the next f
 npm rm --global gulp
 rm /usr/share/man/man1/gulp.1
 ```
+In the directory there is a file attached called example.gulp-config.json. You need to copy this file and rename it to gulp config. use to follow command in your folder.
+```
+cp example.gulp-config.json config-gulp.json
+```
+You may edit your config file to the paths of your needs. If you have a server running you can just simpily add the URL in the localURL function.
+
 If you have Yarn or have it installed just type the following command in your command-line:
 ```
 yarn start
