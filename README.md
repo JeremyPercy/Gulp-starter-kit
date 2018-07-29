@@ -29,7 +29,7 @@ rm /usr/share/man/man1/gulp.1
 ```
 In the directory there is a file attached called example.gulp-config.json. You need to copy this file and rename it to gulp config. use to follow command in your folder.
 ```
-cp example.gulp-config.json config-gulp.json
+cp example.gulp-config.json gulp-config.json
 ```
 You may edit your config file to the paths of your needs. If you have a server running you can just simpily add the URL in the localURL function.
 
