@@ -1,6 +1,6 @@
 # Gulp, Bootstrap 4 base-template
 
-I created a base template providing Bootstrap 4 (Beta 3) with gulp tasks.
+I created a base template providing Bootstrap 4 with gulp tasks.
 
 ## Getting Started
 
