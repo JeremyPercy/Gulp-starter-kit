@@ -18,7 +18,7 @@ After cloning this repository to your computer you need to have Yarn. If you don
 ```
 https://yarnpkg.com/en/docs/install
 ```
-Make sure you have gulp client installed globally. Doing so by the following command line. Note: If you don't have Gulp client or you dont want it installed on your computer then there is no need for. Script wil work also wihtout having gulp installed globally.
+Make sure you have gulp client installed globally. Doing so by the following command line. Note: If you don't have Gulp client or you dont want it installed on your computer then there is no need for. Script wil work also without having gulp installed globally.
 ```
 npm install --global gulp-cli
 ```
@@ -42,17 +42,11 @@ Yarn will have all the dependencies installed and will run gulp.
 
 ## How to
  You can make edit, create or remove Sass/scss and JS in the src directory. However you can direct edit the html files in the web directory. All scss and js files will be compiled in a minified version in the web/assets directory.
- You dont have to worry about dependencies they are already added with npm and compiled. Such as Jquerie and popper.js, which is needed for bootstrap. 
+ You dont have to worry about dependencies they are already added with npm and compiled. Such as Jquery and popper.js, which is needed for bootstrap. 
 
 ## Deployment
 
 You can use the web directory to deploy it to your webhosting.
-
-## Living Styleguide
-With this starter kit you have a living styleguide. Which can help you documenting your styleguide for more information, go to
-```
-https://github.com/kss-node/kss-node
-```
 
 ## Built With
 
@@ -61,7 +55,6 @@ https://github.com/kss-node/kss-node
 * [Browser-Sync](https://www.browsersync.io) 
 * [Sass](http://sass-lang.com) 
 * [Babel](https://babeljs.io)
-* [KSS](http://kss-node.github.io/kss-node/)
 
 ## Contributing
 
