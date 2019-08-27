@@ -1,5 +1,5 @@
 {
-  "templates": "app/views/**/*.html",
+  "templates": "dist/**/*.html",
   "styles": {
     "src": "src/scss/**/*.scss",
     "dist": "dist/assets/css",
