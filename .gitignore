@@ -19,3 +19,4 @@ config.codekit
 *.sublime-project
 *.sublime-workspace
 .idea/
+.vs/
